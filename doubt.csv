@@ -1,0 +1,6 @@
+RESPONSE_VALUE,RESPONSE_ERRORS,provider_list
+['Shipt'],"[{'code': 0, 'message': ""Shipt doesn't provide estimates"", 'provider': 'Shipt', 'type': 'DSP_DOES_NOT_OFFER_ESTIMATES'}]",shipt
+['Shipt'],"[{'code': 0, 'message': ""Shipt doesn't provide estimates"", 'provider': 'Shipt', 'type': 'DSP_DOES_NOT_OFFER_ESTIMATES'}]",
+['FedEx'],"[{'code': 400, 'message': 'Distance from pickup address to dropoff address exceeds 15 miles (24 kilometers): dropoff_address', 'provider': 'DoorDash', 'type': 'MAX_DISTANCE_EXCEEDED'}, {'code': 0, 'message': 'Not serviceable, Reason: Mileage', 'provider': 'PickupNow', 'type': 'UNAVAILABLE'}, {'code': 400, 'message': 'Route Sorry, distance in passenger vehicles is limited to 30 miles.', 'provider': 'Roadie', 'type': 'UNMAPPED_ERROR'}]",
+"['PickupNow', 'FedEx', 'Roadie']","[{'code': 400, 'message': 'Distance from pickup address to dropoff address exceeds 15 miles (24 kilometers): dropoff_address', 'provider': 'DoorDash', 'type': 'MAX_DISTANCE_EXCEEDED'}]",
+['Roadie'],"[{'code': 400, 'message': 'Distance from pickup address to dropoff address exceeds 15 miles (24 kilometers): dropoff_address', 'provider': 'DoorDash', 'type': 'MAX_DISTANCE_EXCEEDED'}]",
